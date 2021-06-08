@@ -286,16 +286,6 @@ class champion_Handler : EventHandler
 		
 		}
 		
-	override void PlayerEntered(playerEvent e)
-		{
-		PlayerInfo player = players[e.PlayerNumber];
-		
-		if(player)
-			{
-			player.mo.Species = 'succ';
-			}
-		}
-		
 	Override void WorldThingSpawned(WorldEvent e)
 		{
 		if(e.Thing && e.Thing.bMISSILE && e.Thing.Target && e.Thing.Target.CountInv("champion_PersistentInfo") && missilecolour)
