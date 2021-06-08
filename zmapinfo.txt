@@ -1,0 +1,9 @@
+gameinfo
+	{
+	addeventhandlers = "champion_Handler", "champion_CHExtra"
+	}
+	
+DamageType champion_Toxic
+	{
+    Obituary = "%o was poisoned"
+	}
