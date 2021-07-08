@@ -46,7 +46,7 @@ class champion_SilverController : champion_BaseController
 	
 	override void champion_TickEffect()
 		{
-		champion.A_RadiusThrust(radfactor,384,RTF_NOIMPACTDAMAGE|RTF_NOTMISSILE);
+		champion.A_RadiusThrust(radfactor,384,RTF_NOIMPACTDAMAGE|RTF_NOTMISSILE, species: 'succ');
 		
 		if(level.time % 16 == 0)
 			{
