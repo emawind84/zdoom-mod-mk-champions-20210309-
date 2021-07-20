@@ -52,7 +52,7 @@ class champion_CyanController : champion_BaseController
 	
 	override void champion_TickEffect()
 		{
-		champion.A_RadiusThrust(windforce,384,RTF_NOIMPACTDAMAGE|RTF_NOTMISSILE);
+		champion.A_RadiusThrust(windforce,384,RTF_NOIMPACTDAMAGE|RTF_NOTMISSILE, species: 'succ');
 		}
 		
 	override void champion_DeathEffect()
